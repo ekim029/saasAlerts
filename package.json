@@ -1,0 +1,29 @@
+{
+  "name": "saasalerts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekim029/saasAlerts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekim029/saasAlerts/issues"
+  },
+  "homepage": "https://github.com/ekim029/saasAlerts#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "dotenv": "^17.1.0",
+    "express": "^5.1.0"
+  }
+}
